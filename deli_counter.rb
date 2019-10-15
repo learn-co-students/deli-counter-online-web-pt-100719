@@ -1,4 +1,7 @@
 require 'pry'
+
+katz_deli = []
+
 def line(customers)
   people = 1
   the_line = ""
@@ -13,5 +16,3 @@ def line(customers)
     puts the_line
   end
 end
-
-def take_a_number()
