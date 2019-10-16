@@ -16,9 +16,10 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,name)
+  last = ""
   order = ""
   place = 1
-if name != nil
+if name != nil 
   katz_deli << name
   katz_deli.each do |n|
   order << "Welcome, #{n}. You are number #{place} in line."
