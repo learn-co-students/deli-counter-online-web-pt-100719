@@ -16,9 +16,10 @@ def line(array)
 end 
 line(katz_deli)
 
-# def take_a_number(array,index)
-#   # strt index @ 1. 
-# end 
 
-# def now_serving 
-# end 
+def take_a_number(array,index)
+  # strt index @ 1. 
+end 
+
+def now_serving 
+end 
