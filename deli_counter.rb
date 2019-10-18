@@ -24,5 +24,17 @@ def take_a_number(line,customer)
 end 
 take_a_number(katz_deli,"Derric")
 
-# def now_serving 
-# end 
+def now_serving(line)
+    #calls out next person in line
+    #if nobody
+    #shouts "Theres is nobody waiting to be served!"
+  if line.length == 0 
+    puts "There is nobody waiting to be served!"
+  else 
+    
+    puts "Currently serving #{line[0]}."
+    line.shift
+  end 
+   
+end 
+now_serving(katz_deli)
