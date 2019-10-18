@@ -2,13 +2,19 @@
 
 katz_deli =[]
 def line (array)
+  array = []
     if array.length == 0 
     puts "The line is currently empty."
   else
-     
-    array.map.with_index(1) do |name, place| 
-    "The line is currently: #{place}. #{name}"
-   end 
+    queue = "The line is currently: "
+    counter = 1 
+      array.each.with_index do |name, place|
+       "The line is currently: #{place}. #{name}"
+      queue<< ("#{place}.#{name}")
+    counter +=1 
+ # #array.collect(1) do |name, place| 
+      end 
+   queue
     end 
     
   
